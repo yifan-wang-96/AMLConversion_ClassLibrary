@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aml.Engine" Version="2.0.4" />
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FS.API">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.API.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.Content">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.Content.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK.Localization">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK.Mathematics">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK.Network">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK.Util">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="FS.SDK.Wpf">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\fe.screen-sim V4\Bin\FS.SDK.Wpf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
